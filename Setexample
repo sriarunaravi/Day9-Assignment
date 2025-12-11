@@ -1,0 +1,16 @@
+package testing;
+import java.util.*;
+public class SetExample {
+	 public static void main(String[] args) {
+	        Set<String> set = new HashSet<>();
+	        set.add("Apple");
+	        set.add("Banana");
+	        set.add("Kiwi");
+	        set.add("Grapes");
+	        List<String> sortedList = new ArrayList<>(set);
+	        Collections.sort(sortedList);
+	        for (String element : sortedList) {
+	            System.out.println(element);
+	        }
+	    }
+	}
